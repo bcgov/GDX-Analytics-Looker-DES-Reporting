@@ -1,10 +1,11 @@
 view: limesurvey_analytics {
   sql_table_name: microservice.limesurvey ;;
 
-  dimension_group: date {
+  dimension_group: report {
     type: time
     timeframes: [date, day_of_month, week, month, month_name, quarter, fiscal_quarter, year]
     sql: ${TABLE}.date ;;
+    label: "Reporting Date"
   }
 
 
