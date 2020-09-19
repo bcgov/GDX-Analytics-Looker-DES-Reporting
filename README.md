@@ -1,4 +1,4 @@
-## GDX Analytics Looker FOI
+## GDX Analytics Looker DES Reporting
 
 This is the GDX Analytics project for reporting dashboards for the DES team.
 
