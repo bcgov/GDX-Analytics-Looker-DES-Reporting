@@ -5,7 +5,7 @@ view: limesurvey_analytics {
     type: time
     timeframes: [date, day_of_month, week, month, month_name, quarter, fiscal_quarter, year]
     sql: ${TABLE}.date ;;
-    label: "Reporting Date"
+    label: "Reporting"
   }
 
 
@@ -32,6 +32,7 @@ view: limesurvey_analytics {
     type: time
     timeframes: [date, day_of_month, week, month, month_name, quarter, fiscal_quarter, year]
     sql: ${TABLE}.startdate ;;
+    label: "Start"
   }
 
 
@@ -39,6 +40,7 @@ view: limesurvey_analytics {
     type: time
     timeframes: [date, day_of_month, week, month, month_name, quarter, fiscal_quarter, year]
     sql: ${TABLE}.datecreated ;;
+    label: "Created"
   }
 
 
