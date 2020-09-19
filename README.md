@@ -20,10 +20,6 @@ This project is in production and the GDX Analytics Team will continue to update
 
 This is the central repository for work by the GDX Analytics Team.
 
-[foi-report-download](https://github.com/bcgov/foi-report-download)
-
-This is an intranet web-app allowing authenticated users to specify filters and download FOI report in PDF or Excel format.
-
 ## Getting Help or Reporting an Issue
  
 For any questions regarding this project, or for inquiries about starting a new analytics account, please contact the GDX Analytics Team.
