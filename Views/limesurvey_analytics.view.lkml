@@ -30,6 +30,11 @@ view: limesurvey_analytics {
     sql: ${TABLE}.surveyls_title ;;
     group_label: "Survey Info"
   }
+  dimension: survey_language {
+    type: string
+    sql: ${TABLE}.surveyls_language ;;
+    group_label: "Survey Info"
+  }
 
 
   dimension: active {
