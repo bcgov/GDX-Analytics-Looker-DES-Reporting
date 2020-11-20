@@ -11,6 +11,8 @@ view: limesurvey_analytics {
       #NOTE: still to do add caching -- should run once a day when the total number of rows has changed
   }
 
+  #test
+
   dimension_group: report {
     type: time
     timeframes: [date, day_of_month, day_of_week, week, month, month_name, quarter, fiscal_quarter, year]
