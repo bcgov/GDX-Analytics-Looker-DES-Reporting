@@ -18,7 +18,6 @@ view: limesurvey_analytics {
     label: "Reporting"
   }
 
-
   dimension: sid {
     type: number
     sql: ${TABLE}.sid ;;
